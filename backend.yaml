@@ -3,7 +3,7 @@
   hosts: backend
   vars:
   
-  taks:
+  tasks:
   - name:  Disable default nodejs 
     ansible.builtin.command: dnf module disable nodejs -y
 
