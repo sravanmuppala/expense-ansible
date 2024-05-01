@@ -9,7 +9,7 @@
     private: no
   tasks:
   - name: Install mysql server
-    ansibile.builtin.dnf:
+    ansible.builtin.dnf:
       name: mysql-server
       state: latest
   
