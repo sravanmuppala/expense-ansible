@@ -14,7 +14,7 @@
       state: latest
   
   - name: Started and enabled mysql server
-    ansible.built.service:
+    ansible.builtin.service:
       name: mysqld
       state: started
       enabled: yes
