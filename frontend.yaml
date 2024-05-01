@@ -13,12 +13,4 @@
         state: started
         enabled: yes
 
-    - name: delete default website
-      ansible.builtin.path:
-        path: /usr/share/nginx/html
-        state: absent
-
-    - name: create html directory
-      ansible.builtin.path:
-        path: /usr/share/nginx/html
-        state: directory
+  
